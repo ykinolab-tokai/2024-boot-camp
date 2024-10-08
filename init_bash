@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "alias cls=clear" >> /root/.bashrc
+echo "alias ppython='poetry run python'" >> /root/.bashrc
+
