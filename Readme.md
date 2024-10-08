@@ -1,25 +1,27 @@
-# Deep Learning Dev Template
+# 2024秋学期ブートキャンプ
 
 ### Author:
-Mux
+* Liu Xiaoyang
 ### Description
-A development template for deep learning projects using C++ and Python.
+2024年、新しく入ってきた3年生向けの「ブートキャンプ」。
+内容は主に深層学習。
 
 ### Dependencies
 * Docker
 
-### Usage
+### このリポジトリの使い方
+**このリポジトリは[このテンプレート](https://github.com/LinhMuks-DFox/DeepLearning-Template)を使って作成した。** なので、C++を用いて深層学習開発のパーツも入っている。　
 For both C++ and Python development, build the Docker container first:
 
-1. Navigate to the appropriate directory:
+1. Docker環境作成用のファイルが保存しているPathにナビゲート。
     ```bash
     cd docker/[cpu/gpu]
     ```
-2. Build the Docker container:
+2. Dockerのコンテナを作成する:
     ```bash
     docker compose build
     ```
-3. Download dependencies:
+3. 必要なライブラリをDownload:
     ```bash
     ./download_dep.sh
     ```
