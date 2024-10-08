@@ -1,11 +1,11 @@
 services:
-  deep_learning_template:
+  bootcampe2024:
     build:
       context: ../../
       dockerfile: docker/Dockerfile
       args:
         - PY_VERSION=3.10
-    container_name: deep_learning_template
+    container_name: bootcampe2024
     deploy:
       resources:
         reservations:
